@@ -12,6 +12,7 @@ Mainboard:	Gigabyte Z390 M Gaming
 /WiFi Adapter&Bluetooth:	BCM 94360CD
 
 EFI Configuration
+
 /OpenCore 0.6.1
 /Lilu 1.4.7
 /AppleALC 1.5.2
@@ -22,16 +23,22 @@ EFI Configuration
 /Usbinjectall	0.7.1
 
 What's working?
+
 Audio
-Bluetooth
-Sleep
-Both iGPU and eGPU
+/Bluetooth
+/Sleep
+/Both iGPU and eGPU
 
 Uncertain
+
 Imessage&Facetime（not tested）
 
 Note
+
 1.“MLB、SystemSerialNumber、SystemUUID” has been removed , please:
+
 (1)Regenerate the numble（by hacnintosh）.
+
 (2)Open EFI/OC/config.plist.(by propertree)
+
 (3)Fill in to the“MLB、SystemSerialNumber、SystemUUID” blanks.
