@@ -37,7 +37,7 @@ Note
 
 1.“MLB、SystemSerialNumber、SystemUUID” has been removed , please:
 
-(1)Regenerate the numble（by hacnintosh）.
+(1)Regenerate the numble（by hackintosh）.
 
 (2)Open EFI/OC/config.plist.(by propertree)
 
